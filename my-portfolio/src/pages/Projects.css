@@ -1,0 +1,10 @@
+.project-img img{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    padding: 3rem;
+    padding-left: 19rem;
+
+}
