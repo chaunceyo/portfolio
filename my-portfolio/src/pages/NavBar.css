@@ -1,0 +1,26 @@
+   .navbar-links {
+    background-color: #000000;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;             /* Remove default margin */
+    padding: 0;            /* Remove default padding */
+    display: flex;         /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    
+  } 
+  
+  .navbar-links li {
+    margin: 0 15px; /* Space between items */
+  }
+  
+   .navbar-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Verdana';
+    padding: 15px;
+    display: block; /* Make links fill the space of list items */
+  } 
+  
+  .navbar-links a:hover {
+    font-weight: bolder;
+  }
