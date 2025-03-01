@@ -8,6 +8,8 @@ const Contact = () => {
       const [email, setEmail] = useState("");
       const [message, setMessage] = useState("");
 
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      
       const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -23,12 +25,19 @@ const Contact = () => {
           message,
         })
         
+        const templateParams = {
+          name,
+          email,
+          project,
+          message,
+        };
+
         emailjs
         .send(
           "service_rfcurq6", // Replace with your service ID
           "template_8do67hf", // Replace with your template ID
           templateParams,
-          process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Replace with your Public Key
+          publicKey // Replace with your Public Key
         )
         .then(() => {
           alert("Message sent successfully ✅");
