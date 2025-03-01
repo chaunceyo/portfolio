@@ -20,13 +20,15 @@
 form {
     display: flex; /* Flexbox Magic */
     flex-direction: column; /* Stack Vertically */
-    gap: 1rem; /* Add space between fields */
-    max-width: 400px; /* Optional: Limit Form Width */
+    gap: 3rem; /* Add space between fields */
+    max-width: 600px; /* Optional: Limit Form Width */
     margin: 0 auto; /* Center the form */
+    padding-bottom: 75px;
+    padding-top: 100px;
   }
   
   input, textarea, button {
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px; /* Smooth edges */
     outline: none;
@@ -61,3 +63,97 @@ form {
     border: 1px solid white; /* Focus Border */
   }
   
+  .where-to {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+  }
+
+  .contact-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 550px;
+    padding-bottom: 100px;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    padding-right: 30px;
+  }
+
+  a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none; /* Remove underline */
+    position: relative;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #007BFF;
+    transition: width 0.3s ease;
+  }
+  
+  a:hover::after {
+    width: 100%; /* Animate underline */
+  }
+
+  .social {
+    padding: 20px;
+  }
+
+  .email-and-phone {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+  }
+
+  .phone {
+    font-weight: 400;
+  }
+
+  .email-and-phone-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    font-size: 25px;
+  }
+
+  .free {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .free-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+  }

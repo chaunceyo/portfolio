@@ -41,7 +41,7 @@ const Contact = () => {
         )
         .then(() => {
           alert("Message sent successfully ✅");
-          setProjectType("");
+          setProject("");
           setName("");
           setEmail("");
           setMessage("");
@@ -99,10 +99,49 @@ const Contact = () => {
         ></textarea>
 
         <button type="submit">Send Message</button>
-
       </form>
 
+      <h2 className='where-to'>Where To Find Me 📲 </h2>
+
+      <div className='contact-info'>
+          <div className='social'>
+            <img src='./LinkedIn.png'></img>
+            <a href="https://www.linkedin.com/in/chaunceyogletree/" target="_blank" rel="noopener noreferrer">
+            LinkedIn: https://www.linkedin.com/in/chaunceyogletree/
+            </a>
+          </div>
+          <div className='social'>
+            <img  className='github-img' src='./Github.png'></img>
+            <a href="https://github.com/chaunceyo" target="_blank" rel="noopener noreferrer">
+            Github: https://github.com/chaunceyo
+            </a>
+          </div>
+          <div className='social'>
+            <img src='./twitter.png'></img>
+            <a href="https://x.com/webdevchauncey" target="_blank" rel="noopener noreferrer">
+            Twitter: https://x.com/webdevchauncey
+            </a>
+          </div>
+
+          <div className='social'>
+            <img src='./Instagram.png'></img>
+            <a href="https://www.instagram.com/webdevchauncey/" target="_blank" rel="noopener noreferrer">
+            Instagram: https://www.instagram.com/webdevchauncey/
+            </a>
+          </div>
+      </div>
+
+
+      <h2 className='email-and-phone'> 📧 Email | 📞 Phone</h2>
+      <div className='email-and-phone-info'>
+        <a href="mailto:chaunceywebdev@gmail.com" target="_blank" rel="noopener noreferrer">
+            Email: chaunceywebdev@gmail.com
+        </a>
+        <h4 className='phone'>Phone: 404-642-4031</h4>
+      </div>
      
+      <h2 className='free'>✅ Free Website Audit Available</h2>
+      <h4 className='free-info'>I'll review your current website for FREE and tell you exactly how to improve it!</h4>
        </>
     )
 }
