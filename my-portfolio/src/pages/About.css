@@ -1,0 +1,27 @@
+.about {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-section-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 2.2;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.myImg2 {
+    width: 500px;
+    height: 600px;
+}
+
