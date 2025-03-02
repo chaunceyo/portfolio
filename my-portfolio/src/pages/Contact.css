@@ -128,7 +128,26 @@ form {
     padding-left: 60px;
   }
 
-  
+  .payment-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .payment-info-2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
 
   .email-and-phone {
     font-family: 'Montserrat', sans-serif;

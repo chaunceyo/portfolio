@@ -60,6 +60,7 @@ const Contact = () => {
             Fill <br /> out the form below or reach out directly — I will reply within 24 hours.
         </h3>
       </div>
+
       <form onSubmit={handleSubmit}>
         <input 
           type="text" 
@@ -100,12 +101,21 @@ const Contact = () => {
 
         <button type="submit">Send Message</button>
       </form>
+
       <div className='contact-info'>
         <h2 className='book'>Or Book A Free Consultation Call Here!</h2>
         <a className='book-link'target="_blank" rel="noopener noreferrer" href='https://calendly.com/chaunceywebdev/free-consultation-call'>
           https://calendly.com/chaunceywebdev/free-consultation-call
         </a>
       </div>
+      
+      <h2 className='payment-info'> Payments are handled securely through Stripe after the consultation. </h2>
+      <h2 className='payment-info-2'> ✅ 50% Deposit to Start Projects <br />
+          ✅ Monthly Plans Available
+      </h2>
+       
+     
+
       <h2 className='where-to'>Where To Find Me 📲 </h2>
 
       <div className='contact-info'>

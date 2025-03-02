@@ -7,6 +7,7 @@ const NavBar = () => {
     return (
       <nav className='container'>
       <ul className="navbar-links">
+        <img className='nav-logo' src='./WebDevChauncey.png'></img>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/about">About</Link></li>
