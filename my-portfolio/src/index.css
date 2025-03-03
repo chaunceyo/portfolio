@@ -1,9 +1,23 @@
-html, body, #root {
-  margin: 0;
-  padding: 0;
-  height: 100%; /* Ensures the parent container takes full height */
-  width: 100%;
-  background-color: rgb(23, 23, 40);
-  box-sizing: border-box;
+html, body {
+  margin: 0;        /* Remove default browser margins */
+  padding: 0;       /* Remove default browser padding */
+  width: 100%;      /* Full width */
+  height: 100%;     /* Full height */
+  box-sizing: border-box; 
+  overflow-x: hidden; /* Stop horizontal scrolling */
+
 }
+
+body {
+  font-size: clamp(14px, 2vw, 18px); /* Automatic font scaling */
+}
+
+#root {
+  width: 100%;      /* Make sure the app container stretches properly */
+  max-width: 100vw; /* Prevent anything from going wider than the screen */
+  margin: 0 auto;   /* Center content */
+  overflow-x: hidden; 
+  background-color: #171728;
+}
+
 

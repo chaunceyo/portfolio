@@ -22,6 +22,7 @@ form {
     flex-direction: column; /* Stack Vertically */
     gap: 3rem; /* Add space between fields */
     max-width: 600px; /* Optional: Limit Form Width */
+    width: 100%;
     margin: 0 auto; /* Center the form */
     padding-bottom: 75px;
     padding-top: 100px;
@@ -82,7 +83,8 @@ form {
 
   img {
     height: 60px;
-    width: 60px;
+    width: 100%;
+    max-width: 60px;
     padding-right: 30px;
   }
 
