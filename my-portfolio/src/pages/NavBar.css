@@ -5,7 +5,7 @@
     padding: 0;            /* Remove default padding */
     display: flex;         /* Use flexbox for horizontal layout */
     justify-content: center; /* Center items horizontally */
-    padding-right: 700px;
+    padding-right: 573px;
     
   } 
   
@@ -28,6 +28,8 @@
 
   .nav-logo {
    display: flex;
-   padding-right: 39rem;
+   padding-right: 35rem;
    
   }
+
+  

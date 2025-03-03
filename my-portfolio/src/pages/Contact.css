@@ -127,7 +127,10 @@ form {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    padding-left: 60px;
+  }
+
+  .book-link {
+    right: 40px;
   }
 
   .payment-info {

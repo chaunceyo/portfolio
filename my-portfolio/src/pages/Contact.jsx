@@ -57,7 +57,7 @@ const Contact = () => {
 
         <h3 className='fill-out-form'> 
             I am always open to new freelance projects, website redesigns, or fixing bugs for small businesses.
-            Fill <br /> out the form below or reach out directly — I will reply within 24 hours.
+            Fill out the form below or reach out directly — I will reply within 24 hours.
         </h3>
       </div>
 
@@ -113,8 +113,6 @@ const Contact = () => {
       <h2 className='payment-info-2'> ✅ 50% Deposit to Start Projects <br />
           ✅ Monthly Plans Available
       </h2>
-       
-     
 
       <h2 className='where-to'>Where To Find Me 📲 </h2>
 

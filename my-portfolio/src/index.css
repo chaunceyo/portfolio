@@ -6,6 +6,7 @@ html, body {
   min-height: 100vh;  /* Full height */
   box-sizing: border-box; 
   overflow-x: hidden; /* Stop horizontal scrolling */
+  max-width: 2480px;
 
 }
 
@@ -16,11 +17,9 @@ body {
 
 #root {
   width: 100%;
-  max-width: 100vw;   /* Stops content from going wider than the screen */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 } 
-
