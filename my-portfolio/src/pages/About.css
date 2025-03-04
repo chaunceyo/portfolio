@@ -24,7 +24,7 @@
 .myImg2 {
     width: 100%;
     max-width: 500px;
-    height: 600px;
+    height: auto;
 }
 
 h3 {
