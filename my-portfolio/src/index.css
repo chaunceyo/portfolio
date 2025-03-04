@@ -23,3 +23,23 @@ body {
   align-items: center;
   justify-content: center;
 } 
+
+/* Mobile Screens (up to 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content */
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+  }
+}
