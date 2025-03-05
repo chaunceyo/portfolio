@@ -33,9 +33,8 @@ body {
   }
 
   @media (max-width: 768px){
-    body{
-      zoom: 0.3;
+    .container {
       overflow-x: hidden;
-      
+      zoom: 0.4;
     }
   }
