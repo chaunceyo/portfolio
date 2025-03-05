@@ -103,7 +103,7 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
 
-        <div className='contact-info'>
+        <div className='book-info'>
           <h2 className='book'>Or Book A Free Consultation Call Here!</h2>
           <a className='book-link'target="_blank" rel="noopener noreferrer" href='https://calendly.com/chaunceywebdev/free-consultation-call'>
             https://calendly.com/chaunceywebdev/free-consultation-call

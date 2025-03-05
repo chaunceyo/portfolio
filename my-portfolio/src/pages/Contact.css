@@ -129,6 +129,16 @@ form {
     padding-bottom: 50px;
   }
 
+  .book-info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 550px;
+    padding-bottom: 100px;
+  }
+
   .book-link {
     right: 40px;
   }
