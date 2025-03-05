@@ -32,4 +32,8 @@ body {
     max-height: 100%;
   }
 
-  
+  @media (max-width: 768px){
+    body{
+      zoom: 0.7;
+    }
+  }
