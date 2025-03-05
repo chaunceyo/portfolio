@@ -30,7 +30,7 @@ body {
     max-height: 100%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1680px) {
     html, body {
       width: 100%;
       min-height: 100vh;
