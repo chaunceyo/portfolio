@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './pages/NavBar';
@@ -9,7 +9,12 @@ import About from './pages/About';
 
 
 function App() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0); // Reset scroll position on load
+    setTimeout(() => {
+      document.documentElement.style.height = `${window.innerHeight}px`; // Force full height
+    }, 100);
+  }, []);
   return (
 
     <>

@@ -14,13 +14,16 @@ const Home = () => {
               </div>
               <img className='myImg' src="./myImage.png"></img>
             </div>
-            <div className='lang-img'>
-              <img src="./HTML5.png"></img>
-              <img src="./CSS3.png"></img>
-              <img src="./React.png"></img>
-              <img src="./Node.png"></img>
-              <img src="./SQL.png"></img>
-              <img src="./NPM.png"></img>
+            <div className='lang-container'>
+              <h1 className='tech-stacks'>Tech Stacks: </h1>
+              <div className='lang-img'>
+                <img src="./HTML5.png"></img>
+                <img src="./CSS3.png"></img>
+                <img src="./React.png"></img>
+                <img src="./nodejs.png"></img>
+                <img src="./SQL.png"></img>
+                <img src="./NPM.png"></img>
+              </div>
             </div>
           </div>
         </>

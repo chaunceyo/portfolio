@@ -34,12 +34,80 @@ body {
 
   @media (max-width: 768px){
     .container {
-      overflow-x: hidden;
       zoom: 0.2;
+      margin: 0;
+      scroll-behavior: smooth;
+      padding-top: 50px;
+      
     }
-    div, img {
+    html {
+      margin: 0;
+      scroll-behavior: smooth;
+      overflow-y: scroll;
+      overscroll-behavior: none;
+      
+    }
+    
+    .navbar-links {
+      width: 100%;
       max-width: 100%;
-      height: auto;
-      margin: 0 auto;
+      zoom: 3.5;
+      
     }
+   
+    .navbar-links a {
+      position: relative;
+      right: 17rem;
+    }
+
+    .nav-logo {
+      position: relative;
+      left: 17.3rem;
+    }
+
+    .home-container {
+      zoom: 2.0;
+      height: 40rem;
+      max-height: 1200rem;
+
+    }
+
+    .intro {
+      zoom: 1.2;
+    }
+
+     .lang-img {
+      position: relative;
+      top: 1rem;
+      max-width: 100%;
+      width: 100%;
+      zoom: 1;
+      max-height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+     }
+
+     .lang-img img {
+      width: 0;
+      padding: 0;
+      zoom: 0.9;
+      
+     }
+
+     .project-img img {
+      position: relative;
+      right: 13rem;
+      zoom: 1.4;
+     }
+
+     .contact-container {
+      zoom: 3;
+     }
+
+    .contact-info {
+      position: relative;
+      right: 20rem;
+    }
+    
   }

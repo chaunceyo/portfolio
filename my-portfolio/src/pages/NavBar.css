@@ -6,7 +6,6 @@
     display: flex;         /* Use flexbox for horizontal layout */
     justify-content: center; /* Center items horizontally */
     padding-right: 573px;
-    
   } 
   
   .navbar-links li {
@@ -29,7 +28,6 @@
   .nav-logo {
    display: flex;
    padding-right: 35rem;
-   
   }
 
   
