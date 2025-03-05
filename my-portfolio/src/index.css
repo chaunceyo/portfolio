@@ -34,6 +34,6 @@ body {
 
   @media (max-width: 768px){
     body{
-      zoom: 2.2;
+      zoom: 0.1;
     }
   }
