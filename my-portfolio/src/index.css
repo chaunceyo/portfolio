@@ -35,7 +35,7 @@ body {
   @media (max-width: 768px){
     .container {
       overflow-x: hidden;
-      zoom: 0.4;
+      zoom: 0.2;
     }
     div, img {
       max-width: 100%;
