@@ -37,4 +37,9 @@ body {
       overflow-x: hidden;
       zoom: 0.4;
     }
+    div, img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
   }
